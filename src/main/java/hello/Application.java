@@ -11,7 +11,7 @@ public class Application {
 	MessageService mockMessageService() {
 		return new MessageService() {
 			public String getMessage() {
-				return "Hello Spring!";
+				return "Hello World!";
 			}
 		};
 	}
